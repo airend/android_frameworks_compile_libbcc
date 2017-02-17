@@ -40,9 +40,6 @@ LOCAL_STATIC_LIBRARIES := \
 
 LOCAL_CFLAGS += -D__HOST__
 
-LOCAL_C_INCLUDES := \
-  $(LOCAL_PATH)/../../include
-
 LOCAL_LDLIBS = -ldl -lpthread
 
 include $(LLVM_HOST_BUILD_MK)
